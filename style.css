@@ -1,3 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.conteudo {
+    padding: 1rem;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 1rem;
+}
+
+.info-contato {
+    background-color: #e6f3ff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.titulo {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu {
+    display: inline-block;
+}
+
 .carousel {
     display: flex;
     overflow:hidden;
