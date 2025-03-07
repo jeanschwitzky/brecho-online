@@ -47,11 +47,11 @@ main {
 
 footer {
     display: flex;
-    justify-content: center; 
-    align-items: center;      
-    height: 100px;     
-    background-color: #333;   
-    text-align: center;     
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #333;
+    text-align: center;
 }
 
 .footer-image {
@@ -81,7 +81,7 @@ section {
     padding: 2rem;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .conteudo {
@@ -90,8 +90,8 @@ section {
     margin-bottom: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    
-    
+
+
 }
 
 .conteudo1 {
@@ -100,25 +100,15 @@ section {
     margin-bottom: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
-    
-    
+
+
 }
+
 .info-contato {
     background-color: #e6f3ff;
     padding: 1.5rem;
     margin: 1rem 0;
     border-radius: 5px;
-}
-
-.rodape {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 .titulo {
@@ -142,17 +132,18 @@ section {
     display: inline-block;
     font-size: 30px;
     margin-top: 20px;
-    
+
 }
 
 .carousel {
     display: flex;
-    overflow:hidden;
-    width:300px;
+    overflow: hidden;
+    width: 300px;
     border-radius: 5px;
     background-color: gray;
     border: 4px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .carousel img {
@@ -165,17 +156,42 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.carousel button {
+    background-color: #333;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 5rem;
+    width: 17rem;
+    border-radius: 2rem;
+    font-size: larger;
+}
+
+.carousel button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
 .flexivel {
     display: flex;
 }
 
 .block {
-    display: block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: large;
     text-align: center;
     border-color: #000;
     border-width: 10px;
+}
+
+.produto {
+    display: inline-block;
+    height:50%;
+}
+
+.descricao {
+    display: inline-block;
+    height: 50%;
 }
 
 section .flexivel {
@@ -196,9 +212,13 @@ section .flexivel {
 
 #formulario_contato {
     padding: 20px;
-    background-color: rgb(86,86,86);
+    background-color: rgb(86, 86, 86);
 }
 
-.imagem{
-    width: px;
+.icones {
+    display: inline-block;
+    text-align: end;
+    width: 800px;
+    font-size: 50px;
+    color: white;
 }
